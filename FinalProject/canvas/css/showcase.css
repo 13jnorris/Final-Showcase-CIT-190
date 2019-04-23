@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+#parent{
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    overflow: auto;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    -webkit-flex-wrap:wrap;
+    flex-wrap: wrap;
+}
+header{
+font-family: 'Oswald', sans-serif;
+display: -webkit-flex;
+justify-content: center;
+width: auto;
+font-size: 24pt;
+background-color: darkorange;
+height: auto;
+
+}
+nav{
+   margin: auto;
+   width: 50%;
+   border: 3px solid darkorange;
+   padding: 10px;
+   position: relative;
+
+}
+#ag{
+text-align: left;
+justify-content: center;
+}
+#pz{
+ text-align: center;
+ justify-content: center;
+ position: relative;
+}
+#bj{
+    justify-content: center;
+ text-align: right;
+position: relative;
+;
+}
+
+
+article{
+    display: -webkit-flex;
+    position: relative;
+    justify-content: center;
+    background-color: darkorange;
+    font-size: 20pt;
+}
+section{
+    font-family: 'Oswald', sans-serif;
+    justify-content: space-evenly;
+
+}
+
+a:link{
+    color: black;
+
+}
+a:visited{
+    color: darkblue;
+}
+h2{
+    font-size: 36pt;
+    position: absolute;
+    text-align: center;
+    
+    }
+
+#menu{
+    align-items: center;
+    justify-content: space-evenly;
+}
+body{
+    height: 100%;   
+    background-image: url("../media/games.png");
+    background-color: darkslategray;
+  }
+  footer{
+    display: -webkit-flex;
+    position: relative;
+    justify-content: baseline;
+    background-color: darkorange;
+    font-size: 20pt;
+  }
